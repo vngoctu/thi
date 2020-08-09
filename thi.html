@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+	<title>Login</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+
+	<div class="header1">
+		<img id="logo1" src="img/lg.png" />
+		<ul id="nav">
+			<li id="lichsu">Lịch sử thi</li>
+			<li id="home">Trang chính</li>
+		<ul>
+	</div>
+
+	<div class="trang">
+		<div class="thongtin">
+			<div style="margin-right: 2vw;" class="khung">
+				<div id="title">
+					Thông tin cá nhân
+				</div>
+				<div id="info">
+					<ul id="info1">
+						<li id="avatar"> <img id="unknown" src="img/unknown.svg" /></li>
+						<li id="id">- Mã số: </li>
+						<li id="name">- Họ tên: </li>
+						<li id="date">- Ngày sinh: </li>
+						<li id="logout">
+							- <a href="logout.html" 
+								onclick="return confirm('Bạn có chắc chắn muốn đăng xuất không ?')">
+								Đăng xuất
+							</a>
+						</li>
+				</div>
+			</div>
+		</div>
+		<div class="thi">
+			<div class="khung">
+				<div id="title">
+					Chọn bài thi
+				</div>
+				<div id="baithi">
+					<p id="ten">
+						CHỨNG CHỈ ỨNG DỤNG CÔNG NGHỆ THÔNG TIN CƠ BẢN
+					</p>
+					<p id="vaothi">
+						- Môn: <a href="baithi.html">Thiết kế Web</a> [Miễn phí]
+					</p>
+					
+					<p id="vaothi">
+						- Môn: Lập trình Robot [Đang cập nhật]
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div id="myModal" class="modal">
+			<div class="modal-content">
+				<div class="modal-header">
+					<span class="close">&times;</span>
+					<h2>Thông báo</h2>
+				</div>
+				<div class="modal-body">
+					<p></p>
+				</div>
+			</div>
+		</div>
+	
+	<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+	<title>Login</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+
+	<div class="header2">
+		<img id="logo2" src="img/unknown.svg" />
+		<ul id="account">
+			<li id="info1"></li>
+			<li id="mon">ỨNG DỤNG CNTT CƠ BẢN</li>
+			<li id="time">
+				<p><span id="countdown" class="timer"></span></p>
+				<button id="send">Nộp bài</button>
+			</li>
+		</ul>
+	</div>
+	
+	<div class="trang1">
+		<div class="huongdan">
+			<div id="opened">
+				<p id="upperBold">
+					Bài thi trắc nghiệm:
+				</p>
+				<p>
+					- Bạn sẽ phải trả lời 10 câu hỏi tỏng thời gian 5 phút
+				</p>
+				<p>
+					- Mỗi câu hỏi sẽ được chọn duy nhất một câu trả lời đúng.
+				</p>
+				<p>
+					- Trong thời gian trả lời, bạn không được sang trang mới, refresh trang, thoát trình duyệt, ...
+				</p>
+				<p>
+					- Nếu có sự cố mạng, sự cố câu hỏi, lỗi chữ và các lỗi khác, vui lòng báo cáo với bộ phận kỹ thuật.
+				</p>
+				<p>
+					- Bạn đã sẵn sàng chưa? Hãy bấm nút Bắt đầu làm bài dưới đây.
+				</p>
+				<button id="sansang">Bắt đầu làm bài</button>
+			
+			</div>
+			<div id="closed">
+					<div id="debai">
+						Câu 1: Bạn hãy đồng ý rằng bạn đã đọc kỹ các chú ý trước khi làm bài thi này.
+					</div>
+					<div id="dapan-a">
+						<input type="radio" name="dapan1" value="A">	
+							A: Đồng ý.
+					</div>
+					<div id="dapan-b">
+						<input type="radio" name="dapan1" value="B">
+							B: Không đồng ý.
+					</div>
+					<div id="dapan-c">
+						<input type="radio" name="dapan1" value="C">	
+							C: Không đồng ý.
+					</div>
+					<div id="dapan-d">
+						<input type="radio" name="dapan1" value="D">	
+							D: Không đồng ý.
+					</div>
+					
+					<div id="debai">
+						Câu 2: Elephant in Vietnamese is ...
+					</div>
+					<div id="dapan-a">
+						<input type="radio" name="dapan2" value="A">	
+							A: Con heo.
+					</div>
+					<div id="dapan-b">
+						<input type="radio" name="dapan2" value="B">	
+							B: Con cá.
+					</div>
+					<div id="dapan-c">
+						<input type="radio" name="dapan2" value="C">	
+							C: Con voi.
+					</div>
+					<div id="dapan-d">
+						<input type="radio" name="dapan2" value="D">	
+							D: Con mèo.
+					</div>
+				
+				<div id="debai">
+						Câu 3: Evolution in Vietnamese is ...
+					</div>
+					<div id="dapan-a">
+						<input type="radio" name="dapan3" value="A">	
+							A: Sự thành công.
+					</div>
+					<div id="dapan-b">
+						<input type="radio" name="dapan3" value="B">	
+							B: Sự lớn lên.
+					</div>
+					<div id="dapan-c">
+						<input type="radio" name="dapan3" value="C">	
+							C: Sự tiến hóa.
+					</div>
+					<div id="dapan-d">
+						<input type="radio" name="dapan3" value="D">	
+							D: Sự thay đổi.
+					</div>
+				
+					<div id="debai">
+						Câu 4: Convert in Vietnamese is ...
+					</div>
+					<div id="dapan-a">
+						<input type="radio" name="dapan4" value="A">	
+							A: Buổi hòa nhạc.
+					</div>
+					<div id="dapan-b">
+						<input type="radio" name="dapan4" value="B">	
+							B: Tiếp tục.
+					</div>
+					<div id="dapan-c">
+						<input type="radio" name="dapan4" value="C">	
+							C: Bao gồm.
+					</div>
+					<div id="dapan-d">
+						<input type="radio" name="dapan4" value="D">	
+							D: Chuyển đổi.
+					</div>
+				
+					<div id="debai">
+						Câu 5: Subtitles in Vietnamese is ...
+					</div>
+					<div id="dapan-a">
+						<input type="radio" name="dapan5" value="A">	
+							A: Phụ đề.
+					</div>
+					<div id="dapan-b">
+						<input type="radio" name="dapan5" value="B">	
+							B: Theo dõi.
+					</div>
+					<div id="dapan-c">
+						<input type="radio" name="dapan5" value="C">	
+							C: Nền tảng.
+					</div>
+					<div id="dapan-d">
+						<input type="radio" name="dapan5" value="D">	
+							D: Đề tài.
+					</div>
+					
+					<div id="debai">
+						Câu 6: Challenge in Vietnamese is ...
+					</div>
+					<div id="dapan-a">
+						<input type="radio" name="dapan6" value="A">	
+							A: Nhân vật.
+					</div>
+					<div id="dapan-b">
+						<input type="radio" name="dapan6" value="B">	
+							B: Số lượng.
+					</div>
+					<div id="dapan-c">
+						<input type="radio" name="dapan6" value="C">	
+							C: Thử thách.
+					</div>
+					<div id="dapan-d">
+						<input type="radio" name="dapan6" value="D">	
+							D: Cánh tay.
+					</div>
+				
+					<div id="debai">
+						Câu 7: Unify in Vietnamese is ...
+					</div>
+					<div id="dapan-a">
+						<input type="radio" name="dapan7" value="A">	
+							A: Đơn vị.
+					</div>
+					<div id="dapan-b">
+						<input type="radio" name="dapan7" value="B">	
+							B: Thống nhất.
+					</div>
+					<div id="dapan-c">
+						<input type="radio" name="dapan7" value="C">	
+							C: Một vài.
+					</div>
+					<div id="dapan-d">
+						<input type="radio" name="dapan7" value="D">	
+							D: Bé nhỏ.
+					</div>
+				
+					<div id="debai">
+						Câu 8: Design in Vietnamese is ...
+					</div>
+					<div id="dapan-a">
+						<input type="radio" name="dapan8" value="A">	
+							A: Nhà ống.
+					</div>
+					<div id="dapan-b">
+						<input type="radio" name="dapan8" value="B">	
+							B: Bước đi.
+					</div>
+					<div id="dapan-c">
+						<input type="radio" name="dapan8" value="C">	
+							C: Xem xét.
+					</div>
+					<div id="dapan-d">
+						<input type="radio" name="dapan8" value="D">	
+							D: Thiết kế.
+					</div>
+				
+					<div id="debai">
+						Câu 9: Rescue in Vietnamese is ...
+					</div>
+					<div id="dapan-a">
+						<input type="radio" name="dapan9" value="A">	
+							A: Giải cứu.
+					</div>
+					<div id="dapan-b">
+						<input type="radio" name="dapan9" value="B">	
+							B: Lặp lại.
+					</div>
+					<div id="dapan-c">
+						<input type="radio" name="dapan9" value="C">	
+							C: Khu nghỉ dưỡng.
+					</div>
+					<div id="dapan-d">
+						<input type="radio" name="dapan9" value="D">	
+							D: Trao đổi.
+					</div>
+				
+					<div id="debai">
+						Câu 10: Apparent in Vietnamese is ...
+					</div>
+					<div id="dapan-a">
+						<input type="radio" name="dapan10" value="A">	
+							A: Căn hộ.
+					</div>
+					<div id="dapan-b">
+						<input type="radio" name="dapan10" value="B">	
+							B: Rõ ràng.
+					</div>
+					<div id="dapan-c">
+						<input type="radio" name="dapan10" value="C">	
+							C: Cha mẹ.
+					</div>
+					<div id="dapan-d">
+						<input type="radio" name="dapan10" value="D">	
+							D: Ứng dụng.
+					</div>
+				</div>
+		</div>
+		<div class="dapan">
+			<p id="upperBold">Câu trả lời: </p>
+			<ul id="traloi">
+				<li id="dapan1">1: <span></span></li> <li id="dapan2">2: <span></span></li>
+				<li id="dapan3">3: <span></span></li> <li id="dapan4">4: <span></span></li>
+				<li id="dapan5">5: <span></span></li>
+			</ul>
+			<ul id="traloi2">
+				<li id="dapan6">6: <span></span></li>
+				<li id="dapan7">7: <span></span></li>
+				<li id="dapan8">8: <span></span></li>
+				<li id="dapan9">9: <span></span></li>
+				<li id="dapan10">10: <span></span></li>
+			</ul>
+		</div>
+	</div>
+	<div id="myModal" class="modal">
+			<div class="modal-content">
+				<div class="modal-header">
+					<span class="close">&times;</span>
+					<h2>Thông báo</h2>
+				</div>
+				<div class="modal-body">
+					<p></p>
+				</div>
+			</div>
+		</div>
+
+	<script type="text/javascript" src="js/script.js"></script>
+
+</body>
+</html>

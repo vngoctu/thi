@@ -1,0 +1,769 @@
+/* Css Vuong Tu */
+
+/* Font */
+@font-face {
+  font-family: Sans-Regular;
+  src: url('../font/SanFrancisco/SanFranciscoText-Regular.otf'); 
+}
+
+/*
+----------
+*/
+
+* {
+	margin: 0;
+	padding: 0;
+	font-size: 17px;
+	font-family: Sans-Regular, sans-serif;
+	color: #000000;
+	letter-spacing: 0.5px;
+}
+
+body {
+	width: 100vw;
+	margin: auto;
+	background-image: linear-gradient( 135deg, #F6CEEC 10%, #D939CD 100%);
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 80vh;
+}
+
+button {
+	cursor: pointer;
+}
+
+p {
+	line-height: 1.4;
+}
+
+/* width */
+::-webkit-scrollbar {
+  display: none;
+  /*width: 10px;
+  margin-right: 10px;*/
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+	background: transparent;
+  /*background: rgb(10,230,245);*/
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background:rgb(222,82,210);
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(0,0,0,0.5); 
+}
+
+
+
+/* The Modal (background) */
+.modal {
+	text-align: center;
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* The Close Button */
+.close {
+	padding-bottom: 20px;
+  color: #aaa;
+  float: right;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Modal Header */
+.modal-header {
+  padding: 10px 16px;
+  background-color: #5cb85c;
+  color: white;
+}
+
+/* Modal Body */
+.modal-body {padding: 20px 16px;}
+
+/* Modal Footer */
+.modal-footer {
+  padding: 2px 16px;
+  background-color: #5cb85c;
+  color: white;
+}
+
+/* Modal Content */
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  margin-top: 40vh;
+  border: 1px solid #888;
+  width: 50%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  animation-name: animatetop;
+  animation-duration: 0.4s
+}
+
+/* Add Animation */
+@keyframes animatetop {
+  from {top: -300px; opacity: 0}
+  to {top: 0; opacity: 1}
+}
+
+
+
+@media (min-width: 1281px) {
+	/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+}
+
+
+
+
+
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+	/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+	/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+}
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+	/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+	/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+}
+
+
+.upperBold, #upperBold {
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.main {
+	margin: auto;
+	height: 94vh;
+	width: 80vw; 
+	padding: 3vh 0;
+}
+ul li {
+	list-style: none;
+}
+
+/* CSS 1 */
+.gioithieu {
+	width: 50vw;
+	float: left;
+}
+
+.header {
+	height: 16vh;
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+.header > #headerLogo {
+	width: 6vw;
+	height: 15vh;
+	padding-top: 3vh;
+	float: left;
+}
+
+.header > #headerLogo > .thi_logo {
+	width: 6vw;
+} 
+
+.header > #headerText {
+	width: 48vw;
+	height: 18vh;
+}
+
+.header > #headerText > ul {
+	padding-top: 3vh;
+	text-align: center;
+}
+.header > #headerText > ul li {
+	padding-top: 3vh;
+	color: #FF3366;
+}
+
+.body {
+	padding-top: 10px;
+	padding-right: 20px;
+}
+
+.body > #tieude {
+	padding: 15px 0 5px;
+	color: #FF3366;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.body > #lienhe {
+	padding: 20px 0 5px 0;
+	font-size: 18px;
+	font-weight: bold;
+	color: #FF3366;
+}
+.body > #noidung {
+	text-indent: 2vw;
+}
+
+.body > #noidung, .body > #add, .body > #email, .body > #phone {
+	text-align: justify;
+}
+
+.dangnhap {
+	width: 29vw;
+	height: 91vh;
+	padding-bottom: 5vh;
+	float: right;
+	display: flex;
+	padding-left: 1vw;
+	align-items: center;
+	text-align: center;
+}
+
+.dangnhap > #khung {
+	padding: 30px;
+	border-style: solid;
+	border-width: thin;
+	border-color: #c0c0c0;
+	border-left: 1px solid #c0c0c0;
+}
+
+.dangnhap > #khung > ul li {
+	height: 6vh;
+	margin-bottom: 1vh;
+}
+
+.dangnhap > #khung > ul li > #txt {
+	display: inline;
+	font-size: 16px;
+}
+
+.dangnhap > #khung > #tieude {
+	padding-bottom: 7vh;
+	color: #FF0066;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+input[type=text], input[type=password] {
+	margin-left: 1vh;
+	padding-left: 1vh;
+	font-size: 15px;
+	float: right;
+	clear: both;
+	width: 200px;
+
+}
+
+.dangnhap > #khung > button {
+	width: 150px;
+	height: 35px;
+	line-height: 35px;
+	margin-top: 20px;
+	background: #FF66FF;
+	color: #fff;
+	font-weight: bold;
+	text-transform: uppercase;
+	border: none;
+	border-radius: 10px;
+}
+
+::placeholder {
+	font-size: 15px;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+	* {
+	font-size: 15px;
+	}
+	
+	body {
+		width: 99vw;
+		max-width: 99vw;
+	}
+	
+	.upperBold, #upperBold {
+		font-size: 16px;
+	}
+	
+	.modal-content {
+		width: 80%;
+	}
+	
+	.main {
+	width: 90vw; 
+	padding-top: 4vh;
+}
+	
+	.gioithieu {
+	width: 90vw;
+	height: 32vh;
+	float: none;
+}
+	
+	.header {
+	width: 90vw;
+	height: 18vh;
+	padding-bottom: 10px;
+	}
+	
+	.header > #headerLogo {
+		width: 90vw;
+		height: 10vh;
+		float: none;
+		text-align: center;
+	}
+
+	.header > #headerLogo > .thi_logo {
+		width: 20vw;
+	} 
+
+	.header > #headerText {
+		width: 90vw;
+	}
+
+	.header > #headerText > ul {
+		padding-top: 0;
+	}
+	.header > #headerText > ul li {
+		padding-top: 4vh;
+	}
+	
+	
+	.body {
+		display: none;
+   }
+   
+   .dangnhap {
+	   width: 60vw;
+	   height: 40vh;
+	   float: none;
+	   display: block;
+	   padding-left: 0;
+   }
+   
+   
+   .dangnhap > #khung {
+	   width: 60vw;
+	   padding: 5vh 10vw;
+	   margin-left: 5vw;
+   }
+   
+   .dangnhap > #khung > #tieude {
+		padding-bottom: 40px;
+		color: #FF0066;
+		font-size: 17px;
+	}
+	
+	input[type=text], input[type=password] {
+		margin: 5px 0 10px 0;
+		padding: 0 0 0 10px;
+		line-height: 20px;
+		float: right;
+		clear: both;
+		width: 200px;
+	}
+}
+
+
+/* CSS 2 */
+.header1 {
+	background: #33ff33;
+	width: 100vw;
+	height: 11vh;
+	line-height: 11vh;
+}
+
+.header1 > #logo1 {
+	width: 5vw;
+	margin-left: 2vw;
+	float: left;
+}
+
+
+.header1 > ul li {
+	float: right;
+	width: 10vw;
+	text-align: center;
+	color: #fff;
+	line-height: 11vh;
+}
+
+
+.trang {
+	height: 89vh;
+	width: 70vw; 
+	margin: auto;
+}
+
+.trang > .thongtin {	
+	width: 25vw;
+	height: 89vh;
+	float: left;
+}
+
+.trang #title {
+	width: 100%;
+	height: 5vh;
+	line-height: 5vh;
+	text-align: center;
+	background: #33ff33;
+	color: #fff;
+	margin-bottom: 5vh;
+	border-radius: 10px 10px 0 0; 
+}
+
+.trang > .thi {
+	width: 45vw;
+	height: 89vh;
+	float: right;
+}
+
+.trang .khung {
+	margin-top: 10vh;
+	border-style: solid;
+	border-width: thin;
+	border-color: #c0c0c0;
+	border-left: 1px solid #c0c0c0;
+	border-radius: 10px 10px 0 0; 
+}
+
+.trang > .thongtin > .khung > #info > ul li {
+	padding-left: 3vh;
+	padding-bottom: 4vh;
+}
+
+.trang > .thongtin > .khung > #info > ul li > #unknown {
+	width: 30%;
+	margin-left: 6vw;
+	border-style: solid;
+	border-width: thin;
+	border-color: #000;
+	border-left: 1px solid #000;
+}
+
+.trang > .thi > .khung > #baithi {
+	padding-bottom: 2vh;
+}
+
+.trang > .thi > .khung > #baithi > #ten {
+	text-align: center;
+	padding-bottom:5vh;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.trang > .thi > .khung > #baithi > #vaothi {
+	margin-top: 1vh;
+	padding-left: 20px;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+	
+	.header1 {
+		background: #33ff33;
+		width: 99vw;
+		height: 7.5vh;
+		line-height: 11vh;
+	}
+	
+	.header1 > #logo1 {
+		width: 12vw;
+		margin-top: 2vw;
+		margin-left: 5vw;
+	}
+	
+	.header1 > ul li {
+		width: 30vw;
+		line-height: 7.5vh;
+		text-align: justify;
+	}
+	
+	.trang {
+		width: 99vw;
+		height: 87.5vh;
+	}
+	
+	.trang .khung {
+		margin-top: 0;
+		border-style: solid;
+		border-width: thin;
+		border-color: #c0c0c0;
+		border-left: 1px solid #c0c0c0;
+		border-radius: 10px 10px 0 0; 
+	}
+	
+	.trang > .thongtin {
+		margin-top: 5vh;
+		margin-left: 17vw;
+		width: 70vw;
+		margin-right: 2vw;
+		height: 46vh;
+		float: none;
+	}
+	
+	.trang #title {
+		margin-bottom: 3vh;
+	}
+	
+	.trang > .thongtin > .khung > #info > ul li > #unknown {
+		margin-left: 20vw;
+	}
+	
+	.trang > .thi > .khung > #baithi > #ten {
+		padding-bottom:2vh;
+	}
+	
+	.trang > .thi {
+		margin: 7.5vh 0 0 4.5vw;
+		width: 90vw;
+		height: 26vh;
+		float: none;
+	}
+
+}
+
+/* CSS 3 */
+.header2 {
+	background: #33ff33;
+	width: 100vw;
+	height: 11vh;
+	line-height: 11vh;
+}
+
+.header2 > #logo2 {
+	width: 4vw;
+	margin: 0.5vw 0 0 3vw;
+	float: left;
+	
+}
+
+.header2 > ul li {
+	padding-top: 1vh;
+	float: left;
+	width: 28vw;
+	color: #fff;
+}
+
+.header2 > ul li#info1 {
+	text-align: left;
+	padding-left: 2vw;
+	line-height: 8vh;
+}
+
+.header2 > ul li#time {
+	width: 31vw;
+	text-align: right;
+	padding-right: 4vw;
+	line-height: 6vh;
+	display: none;
+}
+
+.header2 > ul li#mon {
+	text-align: center;
+	line-height: 8vh;
+}
+
+.header2 > ul li#dem {
+	color: red;
+	font-weight: bold;
+}
+
+.header2 > ul li#time > button#send {
+	width: 90px;
+	height: 30px;
+	background: #428bca;
+	color: #fff;
+	font-weight: bold;
+	text-transform: uppercase;
+	border-color: #357ebd;
+	border-radius: 5px;
+}
+
+.trang1 {
+	height: 89vh;
+	width: 100vw; 
+	margin: auto;
+}
+
+.trang1 > .huongdan {
+	width: 84.5vw;
+	padding: 5vh 2vw 0 2.5vw;
+	height: 84vh;
+	float: right;
+	overflow: auto;
+}
+
+.trang1 > .huongdan > #closed {
+	display: none;
+	padding: 0 3vw 3vh 0;
+}
+
+
+.trang1 > .dapan {
+	width: 9vw;
+	height: 88vh;
+	padding: 1vh 0 0 1vw;
+	border-right: 1px solid #000;
+	border-left: 1px solid #000;
+	/*background: skyblue;*/
+	border-radius: 10px 10px 0 0;
+	float: right;
+	display: none;
+}
+
+.trang1 > .huongdan > #opened >  p:not(#upperBold) {
+	text-indent: 2vw;
+	padding: 1vh 0;
+}
+
+.trang1 > .huongdan > #opened > button#sansang {
+	margin-top: 2vh;
+	width: 200px;
+	height: 30px;
+	background: #428bca;
+	color: #fff;
+	font-weight: bold;
+	text-transform: uppercase;
+	border-color: #357ebd;
+	border-radius: 5px;
+}
+
+.trang1 #upperBold {
+	padding-bottom: 1vh;
+}
+
+.trang1 > .huongdan > #closed > #debai {
+	padding: 2vh 0;
+	font-weight: bold;
+}
+
+.trang1 > .dapan > ul li {
+	width: 4vw;
+	padding-top: 0.5vh;
+}
+
+.trang1 > .dapan > ul#traloi {
+	float: left;
+}
+
+.trang1 > .dapan > ul#traloi2 {
+	padding-right: 1vw;
+	float: right;
+}
+
+.trang1 #dapan-a, .trang1 #dapan-b, .trang1 #dapan-c, .trang1 #dapan-d {
+	padding: 0 0 1vh 1vw;
+}
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+	.header2 {
+		background: #33ff33;
+		width: 99vw;
+		height: 8vh;
+		line-height: 11vh;
+	}
+	
+	.header2 > #logo2 {
+		width: 12vw;
+		margin: 2vw 0 0 2vh;
+		float: left;	
+	}
+	
+	.header2 > ul li#info1 {
+		text-align: left;
+		padding-left: 0;
+		line-height: 7vh;
+		display: none;
+	}
+	
+	.header2 > ul li#mon {
+		width: 59vw;
+		text-align: right;
+	}
+	
+	.header2 > ul li#time {
+		width: 22vw;
+		text-align: right;
+		line-height: 3vh;
+		display: none;
+	}
+	
+	.header2 > ul li#time > button#send {
+		width: 70px;
+		height: 30px;
+		background: #428bca;
+		color: #fff;
+		font-weight: bold;
+		text-transform: uppercase;
+		border-color: #357ebd;
+		border-radius: 5px;
+	}
+	
+	.trang1 {
+		width: 99vw;
+		height: 92vh;
+	}
+	
+	.trang1 > .huongdan {
+		padding: 4vh 0 0 5vw;
+		float: none;
+	}
+	
+	.trang1 > .huongdan > #opened > button#sansang {
+		width: 50vw;
+		margin-left: 20vw;
+	}
+	
+	.trang1 > .huongdan > #opened >  p:not(#upperBold) {
+		text-indent: 4vw;
+		padding: 0.5vh 0;
+	}
+	
+}
