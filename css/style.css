@@ -335,8 +335,9 @@ input[type=text], input[type=password] {
 	}
 	
 	.main {
-	width: 90vw; 
-	padding-top: 4vh;
+		width: 90vw; 
+		padding-top: 4vh;
+		height: 93vh;
 }
 	
 	.gioithieu {
