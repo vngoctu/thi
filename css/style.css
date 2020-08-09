@@ -96,8 +96,12 @@ p {
 /* Modal Header */
 .modal-header {
   padding: 10px 16px;
-  background-color: #5cb85c;
+  background: #FF66FF;
   color: white;
+}
+
+.modal-header h2 {
+  color: #fff;
 }
 
 /* Modal Body */
@@ -335,9 +339,8 @@ input[type=text], input[type=password] {
 	}
 	
 	.main {
-		width: 90vw; 
-		padding-top: 4vh;
-		height: 93vh;
+	width: 90vw; 
+	padding-top: 4vh;
 }
 	
 	.gioithieu {
@@ -413,7 +416,7 @@ input[type=text], input[type=password] {
 
 /* CSS 2 */
 .header1 {
-	background: #33ff33;
+	background-image: linear-gradient( 135deg, #F6CEEC 10%, #D939CD 100%);
 	width: 100vw;
 	height: 11vh;
 	line-height: 11vh;
@@ -452,7 +455,7 @@ input[type=text], input[type=password] {
 	height: 5vh;
 	line-height: 5vh;
 	text-align: center;
-	background: #33ff33;
+	background: #FF66FF;
 	color: #fff;
 	margin-bottom: 5vh;
 	border-radius: 10px 10px 0 0; 
@@ -507,7 +510,7 @@ input[type=text], input[type=password] {
 @media (min-width: 320px) and (max-width: 480px) {
 	
 	.header1 {
-		background: #33ff33;
+		background-image: linear-gradient( 135deg, #F6CEEC 10%, #D939CD 100%);
 		width: 99vw;
 		height: 7.5vh;
 		line-height: 11vh;
@@ -571,7 +574,7 @@ input[type=text], input[type=password] {
 
 /* CSS 3 */
 .header2 {
-	background: #33ff33;
+	background-image: linear-gradient( 135deg, #F6CEEC 10%, #D939CD 100%);
 	width: 100vw;
 	height: 11vh;
 	line-height: 11vh;
@@ -705,7 +708,7 @@ input[type=text], input[type=password] {
 
 @media (min-width: 320px) and (max-width: 480px) {
 	.header2 {
-		background: #33ff33;
+		background-image: linear-gradient( 135deg, #F6CEEC 10%, #D939CD 100%);
 		width: 99vw;
 		height: 8vh;
 		line-height: 11vh;
